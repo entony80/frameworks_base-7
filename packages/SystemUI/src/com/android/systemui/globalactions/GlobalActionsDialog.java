@@ -1490,6 +1490,12 @@ class GlobalActionsDialog implements DialogInterface.OnDismissListener, DialogIn
         mItems.add(mRestartSystemUI);
     }
 
+    private ToggleAction.State getUpdatedAirplaneToggleState() {
+        return (Settings.Global.getInt(mContext.getContentResolver(),
+                    Settings.Global.AIRPLANE_MODE_ON, 0) == 1) ?
+                ToggleAction.State.On : ToggleAction.State.Off;
+    }
+
     private void onAirplaneModeChanged() {
         // Let the service state callbacks handle the state.
         if (mHasTelephony) return;
