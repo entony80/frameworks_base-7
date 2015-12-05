@@ -4096,6 +4096,13 @@ public final class Settings {
          */
         public static final String POWERMENU_LOCKSCREEN = "powermenu_lockscreen";
 
+        /**
+         * Whether to display the screenrecord option in the power menu
+         *
+         * @hide
+         */
+        public static final String POWERMENU_SCREENRECORD = "powermenu_screenrecord";
+
          /**
          * Whether to display the power menu advanced reboot option on a secured lockscreen
          *

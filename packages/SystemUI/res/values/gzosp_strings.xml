@@ -27,6 +27,7 @@
     <string name="global_action_restart_ui">SystemUI</string>
     <string name="global_action_restart_hot">Quick</string>
     <string name="global_action_screenshot">Screenshot</string>
+    <string name="global_action_screenrecord">Screenrecord</string>
 
     <!-- Empty summary workaround -->
     <string name="summary_empty" translatable="false"></string>
