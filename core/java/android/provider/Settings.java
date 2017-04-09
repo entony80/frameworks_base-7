@@ -4603,6 +4603,13 @@ public final class Settings {
                 "status_bar_ticker_animation_mode";
 
         /**
+         * Whether to enable grid recents
+         *
+         * @hide
+         */
+        public static final String GRID_RECENTS = "grid_recents";
+
+        /**
          * Settings to backup. This is here so that it's in the same place as the settings
          * keys and easy to update.
          *
