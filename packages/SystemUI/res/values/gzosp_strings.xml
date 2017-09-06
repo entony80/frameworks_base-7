@@ -37,6 +37,11 @@
     <string name="accessibility_quick_settings_location_gps_only">Location reporting: sensors only mode.</string>
     <string name="accessibility_quick_settings_location_high_accuracy">Location reporting: high accuracy mode.</string>
 
+    <!-- Caffeine QS Tile -->
+    <string name="quick_settings_caffeine_label">Caffeine</string>
+    <string name="accessibility_quick_settings_caffeine_off">Caffeine off</string>
+    <string name="accessibility_quick_settings_caffeine_on">Caffeine on</string>
+
     <!-- PiP Tile -->
     <string name="quick_settings_pip_label">PiP</string>
     <string name="quick_settings_pip_tile_app_na">Sorry, but it seems that the app doesn\'t support native PiP.</string>
