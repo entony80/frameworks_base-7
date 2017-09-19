@@ -4077,6 +4077,13 @@ public final class Settings {
         public static final String POWERMENU_AIRPLANE = "powermenu_airplane";
 
         /**
+         * Whether to display the torch option in the power menu
+         *
+         * @hide
+         */
+        public static final String POWERMENU_TORCH = "powermenu_torch";
+
+        /**
          * Whether to display the power menu dialog while on the lockscreen
          * @hide
          */
